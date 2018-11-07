@@ -5,7 +5,7 @@
 
 Этот небольшой скрипт заменяет русские названия perfmon-счётчиков на английские (банальным поиском по идентификатору perfmon-счётчика).
 
-Возможно, необходимость в исправлении csv-файла возникает не только при использовании русской локализации Widows. 
+Возможно, необходимость в исправлении csv-файла возникает не только при использовании русской локализации Windows. 
 
 Используемые словарные файлы eng_counters.txt и rus_counters.txt взяты из реестра - значения ключей `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\009\Counter` (eng) и `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\019\Counter` (rus)
 
