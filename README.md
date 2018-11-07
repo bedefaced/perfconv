@@ -1,5 +1,5 @@
 # perfconv
-Простой скрипт Python для исправления заголовков csv-файла с метриками perfmon
+Простой скрипт Python / PowerShell для исправления заголовков csv-файла с метриками perfmon
 
 При выгрузке метрик perfmon в csv-файл с помощью relog заголовки csv-файла часто бывают повреждены (непарная скобка, проблемы с кодировкой), и с ними не могут работать различные GUI-утилиты для анализа метрик (например, [NMONVisualizer](https://nmonvisualizer.github.io/nmonvisualizer/)). 
 
@@ -11,3 +11,5 @@
 
 ## Пример запуска
 ```python perfconv.py app.csv```
+
+```./perfconv.ps1 -Path app.csv```
